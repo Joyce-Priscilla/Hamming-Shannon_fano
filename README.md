@@ -13,10 +13,10 @@ Google Colab
 import math
 
 # Probabilities given
-p = [0.125, 0.0625, 0.25, 0.0625, 0.125, 0.125, 0.25]
+p = [0.55, 0.15, 0.15, 0.1, 0.05]
 
 # Corresponding Huffman/Shannon-Fano code lengths
-lk = [3, 4, 2, 4, 3, 3, 2]
+lk = [2, 2, 2, 3, 3]
 
 n = len(p)
 
@@ -46,10 +46,10 @@ print(f"Variance is : {var}")
 import math
 
 # Probabilities given
-p = [0.125, 0.0625, 0.25, 0.0625, 0.125, 0.125, 0.25]
+p = [0.55, 0.15, 0.15, 0.1, 0.05]
 
 # Corresponding Huffman/Shannon-Fano code lengths
-lk = [3, 4, 2, 4, 3, 3, 2]
+lk = [2, 2, 2, 3, 3]
 
 n = len(p)
 
@@ -74,6 +74,7 @@ print(f"Efficiency is : {eff * 100}%")
 print(f"Redundancy is : {red}")
 print(f"Variance is : {var}")
 
+
 ```
 # Calculation:
 ```
@@ -83,20 +84,20 @@ Compare the manually calculated value and the observed practical value.
 ```
 Huffman:
 
-Average Codeword Length is : 2.625
-Entropy is : 2.625
-Efficiency is : 100.0%
-Redundancy is : 0.0
-Variance is : 0.484
+Average Codeword Length is : 2.1500000000000004
+Entropy is : 1.844
+Efficiency is : 85.8%
+Redundancy is : 0.142
+Variance is : 0.128
 
 Shannnon_fano:
 
-Average Codeword Length is : 2.625
-Entropy is : 2.625
-Efficiency is : 100.0%
-Redundancy is : 0.0
-Variance is : 0.484
+Average Codeword Length is : 2.1500000000000004
+Entropy is : 1.844
+Efficiency is : 85.8%
+Redundancy is : 0.142
+Variance is : 0.128
 
 ``` 
 # Results:
-Thus the Huffman and Shannon_fano coding is executed sucessfully.
+Thus the Huffman and Shannon_fano coding is written and executed sucessfully.
