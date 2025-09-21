@@ -77,16 +77,16 @@ print(f"Variance is : {var}")
 
 ```
 # Calculation:
-```
-Huffman:
+
+# Huffman:
 
 <img width="887" height="1280" alt="image" src="https://github.com/user-attachments/assets/9d09428d-f1ac-45cf-b82e-4799e3b94296" />
 
-Shannon Fano:
+# Shannon Fano:
 
 <img width="884" height="1280" alt="image" src="https://github.com/user-attachments/assets/f78ed537-e9dd-45cc-97e9-680fb82b425d" />
 
-```
+
 # Output
 ```
 Huffman:
