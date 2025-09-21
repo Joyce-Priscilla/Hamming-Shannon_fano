@@ -78,7 +78,14 @@ print(f"Variance is : {var}")
 ```
 # Calculation:
 ```
-Compare the manually calculated value and the observed practical value.
+Huffman:
+
+<img width="887" height="1280" alt="image" src="https://github.com/user-attachments/assets/9d09428d-f1ac-45cf-b82e-4799e3b94296" />
+
+Shannon Fano:
+
+<img width="884" height="1280" alt="image" src="https://github.com/user-attachments/assets/f78ed537-e9dd-45cc-97e9-680fb82b425d" />
+
 ```
 # Output
 ```
@@ -90,7 +97,7 @@ Efficiency is : 85.8%
 Redundancy is : 0.142
 Variance is : 0.128
 
-Shannnon_fano:
+Shannon_fano:
 
 Average Codeword Length is : 2.1500000000000004
 Entropy is : 1.844
